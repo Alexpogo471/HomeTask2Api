@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="641c4388-30a1-41aa-86b1-5f8b7bacd838" name="Default Changelist" comment="" />
+    <list default="true" id="641c4388-30a1-41aa-86b1-5f8b7bacd838" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/usersJs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestMain.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VEtzFLJBDFOJhN7YbtSjrlT6l1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,14 +44,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.TestMain.testPost">
-    <configuration name="TestMain.testApiAlbumsTitle0" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestMain.testApiUsers3">
+    <configuration name="TestMain.testApiAlbumsTitle30" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask2Api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="METHOD_NAME" value="testApiAlbumsTitle0" />
+      <option name="METHOD_NAME" value="testApiAlbumsTitle30" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -48,11 +60,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testApiComments" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMain.testApiToDos" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="HomeTask2Api" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="METHOD_NAME" value="testApiComments" />
+      <option name="METHOD_NAME" value="testApiToDos" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain.testApiUsers1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HomeTask2Api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testApiUsers1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -84,25 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain.testPost" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="HomeTask2Api" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMain" />
-      <option name="METHOD_NAME" value="testPost" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestMain.testPost" />
-        <item itemvalue="TestNG.TestMain.testApiAlbumsTitle0" />
         <item itemvalue="TestNG.TestMain.testApiUsers3" />
         <item itemvalue="TestNG.TestMain.testApiUsers2" />
-        <item itemvalue="TestNG.TestMain.testApiComments" />
+        <item itemvalue="TestNG.TestMain.testApiUsers1" />
+        <item itemvalue="TestNG.TestMain.testApiToDos" />
+        <item itemvalue="TestNG.TestMain.testApiAlbumsTitle30" />
       </list>
     </recent_temporary>
   </component>
@@ -132,26 +144,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1577035585592">
+    <state x="381" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577084635380">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577035585592" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1576838443131" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1577035585590">
+    <state x="381" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800@0.0.1280.800" timestamp="1577084635380" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1577084964116">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577035585590" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1576838443130" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1577035585590">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577084964116" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.709@0.23.1280.709" timestamp="1577084707435" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1577084964115">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577035585590" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1576838443120" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1577035585591">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577084964115" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.709@0.23.1280.709" timestamp="1577084707434" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1577084964114">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577035585591" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1576838443130" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577084964114" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.709@0.23.1280.709" timestamp="1577084707433" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1577084964115">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577084964115" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.709@0.23.1280.709" timestamp="1577084707435" />
     <state x="149" y="39" key="SettingsEditor" timestamp="1576842318426">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
